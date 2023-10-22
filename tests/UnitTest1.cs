@@ -12,10 +12,10 @@ namespace myWebApp.Tests
             int id = 1;
             string lastName = "Whale";
             string firstMidName = "Moby";
-            DateTime enrollmentDate = new DateTime(2013, 3, 15);
+            DateTime enrollmentDate = new(2013, 3, 16);
 
             // Act
-            Student student = new Student
+            Student student = new()
             {
                 ID = id,
                 LastName = lastName,
